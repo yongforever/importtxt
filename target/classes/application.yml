@@ -1,0 +1,10 @@
+server:
+  port: 9001
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql驱动配置runtime报红; mysql5.7版本配置 com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springsecuritytest?serverTimezone=GMT
+    username: root
+    password: root
